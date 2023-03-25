@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box1 {
+  background-color: #5c93aa;
+  width: 25vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 5px solid #86b6c6;
+  position: fixed;
+  top: calc(50% - 175px);
+  right: calc(100% - 274px);
+}
+
+.navegacao {
+  text-align: center;
+  padding: 10px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0c3756;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.menu {
+  position: relative;
+  top: calc(100% - 275px);
+  left: calc(100% - 345px);
+}
+
+#nome {
+  position: fixed;
+  color: #0c3756;
+  top: 23%;
+  left: 30%;
+  font-size: 60px;
+  font-family: "Anton", sans-serif;
+}
+
+#sobrenome {
+  color: #3a72be;
+}
+
+#info {
+  color: #0c3756;
+  position: fixed;
+  top: 35%;
+  left: 30%;
+  font-size: 20px;
+  font-family: "Anton", sans-serif;
+}
+
+#email {
+  color: #86b6c6;
+}
+
+#telefone {
+  color: #3a72be;
+}
+
+#descricao {
+  color: #0c3756;
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  right: 5%;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#linkedin {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  font-size: 40px;
+}
+
+#github {
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  font-size: 40px;
+}
+
+#facebook {
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  font-size: 40px;
+}
+
+.conhecimentos {
+  color: #0c3756;
+  position: fixed;
+  top: 37%;
+  left: 35%;
+  list-style-type: upper-alpha;
+  font-size: 40px;
+}
+
+.pessoais {
+  color: #0c3756;
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  font-size: 25px;
+}
+
+.profissionais {
+  color: #0c3756;
+  position: fixed;
+  top: 70%;
+  left: 35%;
+  font-size: 25px;
+}
+
+.titulo1 {
+  color: #3a72be;
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  font-size: 50px;
+}
+
+.titulo2 {
+  color: #3a72be;
+  position: fixed;
+  top: 60%;
+  left: 35%;
+  font-size: 50px;
+}
